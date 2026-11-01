@@ -13,4 +13,12 @@ PYBIND11_MODULE(_core, m) {
         py::arg("b"),
         "Add two integers."
     );
+
+  m.def(
+        "subtract",
+        &theodora::subtract,
+        py::arg("a"),
+        py::arg("b"),
+        "Subtract two integers."
+    );
 }

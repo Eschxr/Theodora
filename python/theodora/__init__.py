@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 
-from ._core import add
+from ._core import add, subtract
 
-__all__ = ["add"]
+__all__ = ["add", "subtract"]
