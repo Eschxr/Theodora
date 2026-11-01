@@ -1,4 +1,4 @@
-add_library(theodora_cpp STATIC Theodora.cpp)
+add_library(theodora_cpp STATIC Theodora.cpp tensor.cpp)
 
 target_include_directories(
     theodora_cpp
